@@ -1,0 +1,107 @@
+body{
+    background-color: #9F7127;
+}
+
+/*sf logo*/
+.sfLogo{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSF{
+    height: 60px;
+    padding: 10px;
+}
+
+/*LOTR Title with img background*/
+.LotrHeader{
+    background-image: url(images/backgroundImagesLoTR/Lord-of-the-Rings700.png);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    /*lotr title*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    /*align-items: center;*/
+}
+
+.lotrTitle{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+
+/*information movie*/
+.infoMovie{
+    background-color: #D2B997;
+    border: solid black;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.infoMovie h1,h2,h3{
+    color: #322018cc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/*trailer*/
+.trailers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D2B997;
+    border: solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.trailers iframe{
+    max-width: 100%;
+}
+
+/*revelant links*/
+.revelantLinks{
+    background-color: #D2B997;
+    border: solid black;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-right: 10px ; /* Remove margin from the last link */
+}
+
+.links li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1B0E0B;
+    color: #D2B997;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 5px; /* Add margin top and bottom */
+    overflow: hidden; /* Hide any overflowing content */
+}
